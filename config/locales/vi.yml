@@ -1,0 +1,16 @@
+vi:
+  layouts: 
+    header:
+      sample_app: "Ứng dụng demo"
+      home: "Trang chủ"
+      about: "Giới thiệu"
+      help: "Giúp đỡ"
+      login: "Đăng nhập"
+      language: "Ngôn ngữ"
+      lang_en: "Tiếng anh"
+      lang_vi: "Tiếng việt"
+      new: "Tin tức"
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      new: "Tin tức"
