@@ -1,0 +1,54 @@
+vi:
+  layouts:
+    application:
+      title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    header:
+      sample_app: "Ứng dụng demo"
+      home: "Trang chủ"
+      about: "Giới thiệu"
+      help: "Giúp đỡ"
+      login: "Đăng nhập"
+      language: "Ngôn ngữ"
+      lang_en: "Tiếng anh"
+      lang_vi: "Tiếng việt"
+      new: "Tin tức"
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      new: "Tin tức"
+      the: ""
+      rails: "Hướng dẫn Ruby on Rails"
+      by: "Bởi"
+  static_pages:
+    about:
+      about: "Giới thiệu"
+      the: ""
+      rails: "Hướng dẫn Ruby on Rails"
+      book: "cuống sách sách"
+      is: "Là một"
+      and: "và "
+      screencast: "screencast series"
+      to: "để phát triển ứng dụng web vơi"
+      rails_n: "Ruby on Rails"
+      des: "Đây là ứng dụng ví dụ trong hướng dẫn."
+    contact:
+      contact: "Liên hệ"
+      des: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng ví dụ tại"
+      contact_p: "trang liên hệ"
+    help:
+      help: "Trợ giúp"
+      get: "Xem trợ giúp về Hướng dẫn Ruby on Rails tại"
+      rails_s: "phần trợ giúp Rails Tutorial"
+      to: "để xem hướng dẫn trong ví dụ này, hãy xem"
+      rails: "hướng dẫn Ruby on Rails"
+      book: "trong cuốn sách"
+    home:
+      home: "Chào mừng đến với Trang chủ"
+      this_is: "Đây là trang chủ của"
+      rails: "Hướng dẫn Ruby on Rails"
+      sample_app: "ứng dụng tưng tự."
+      sign_up: "Đăng kí ngay!"
+  users:
+    new:
+      sign_up: "Đăng kí"
+      des: "Trang này là trang đăng kí người dùng mới."
