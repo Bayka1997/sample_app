@@ -2,9 +2,9 @@
 
 <h1><%= t(".about") %></h1>
 <p>
-  <%= t(".the") %><a href="https://www.railstutorial.org/"><em></em></a> <%= t(".is") %>
-  <a href="https://www.railstutorial.org/book"><%= t(".book") %></a> <%= t(".and") %>
-  <a href="http://screencasts.railstutorial.org/"><%= t(".screencast") + " " %></a><%= t(".to") %>
-  <a href="http://rubyonrails.org/"><%= t(".rails_n") %></a>.
+  <%= t(".the") %> <%= link_to t(".rails") , Settings.urlrails %> <%= t(".is") %>
+  <%= link_to t(".book"), Settings.urlBook %> <%= t(".and") %>
+  <%= link_to t(".screencast"), Settings.urlScreencasts %> <%= t(".and") %>
+  <%= link_to t(".rails_n"), Settings.urlRubyRails %>.
   <%= t(".des") %>
 </p>

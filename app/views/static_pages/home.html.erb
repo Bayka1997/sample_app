@@ -3,12 +3,11 @@
 
   <h2>
     <%= t('.this_is')%>
-    <a href="https://www.railstutorial.org/"><%= t(".rails") %></a>
+    <%= link_to t(".rails"), Settings.urlRails %>
     <%= t(".sample_app") %>
   </h2>
 
   <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-  'http://rubyonrails.org/' %>
+<%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.urlRubyRails %>

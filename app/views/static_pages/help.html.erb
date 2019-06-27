@@ -3,7 +3,7 @@
 <h1><%= t(".help") %></h1>
 <p>
   <%= t(".get") %>
-  <a href="https://www.railstutorial.org/help"><%= t(".rails_s") %></a>.
+  <%= link_to t(".rails_s"), Settings.urlHelp %>,
   <%= t(".to") %>
-  <a href="https://www.railstutorial.org/book"><em><%= t(".rails") %></em> <%= t(".book") %></a>.
+  <%= link_to "<em>" + t(".rails") + "</em>" + t(".book"), Settings.urlBook %>.
 </p>

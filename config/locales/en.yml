@@ -48,3 +48,7 @@ en:
       rails: "Ruby on Rails Tutorial"
       sample_app: "sample application."
       sign_up: "Sign up now!"
+  users:
+    new:
+      sign_up: "Sign up"
+      des: "This will be a signup page for new users."

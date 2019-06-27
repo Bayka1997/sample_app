@@ -48,3 +48,7 @@ vi:
       rails: "Hướng dẫn Ruby on Rails"
       sample_app: "ứng dụng tưng tự."
       sign_up: "Đăng kí ngay!"
+  users:
+    new:
+      sign_up: "Đăng kí"
+      des: "Trang này là trang đăng kí người dùng mới."
