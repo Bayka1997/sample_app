@@ -1,33 +1,54 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  layouts: 
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "Sample App"
+      home: "Home"
+      about: "About"
+      help: "Help"
+      login: "Login"
+      language: "Language"
+      lang_en: "English"
+      lang_vi: "Vietnamese"
+      new: "New"
+    footer:
+      about: "About"
+      contact: "Contact"
+      new: "New"
+      the: "The"
+      rails: "Ruby on Rails Tutorial"
+      by: "By"
+  static_pages:
+    about:
+      about: "About"
+      the: "The"
+      rails: "Ruby on Rails Tutorial"
+      book: "book"
+      is: "is a"
+      and: "and"
+      screencast: "screencast series"
+      to: "to teach web development with"
+      rails_n: "Ruby on Rails"
+      des: "This is the sample application for the tutorial."
+    contact:
+      contact: "Contact"
+      des: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_p: "contact page"
+    help:
+      help: "Help"
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      rails_s: "Rails Tutorial help section"
+      to: "To get help on this sample app, see the"
+      rails: "Ruby on Rails Tutorial"
+      book: "book"
+    home:
+      home: "Welcome to the Home"
+      this_is: "This is the home page for the"
+      rails: "Ruby on Rails Tutorial"
+      sample_app: "sample application."
+      sign_up: "Sign up now!"
+  users:
+    new:
+      sign_up: "Sign up"
+      des: "This will be a signup page for new users."
