@@ -5,5 +5,7 @@
   <%= t(".get") %>
   <%= link_to t(".rails_s"), Settings.urlHelp %>,
   <%= t(".to") %>
-  <%= link_to "<em>" + t(".rails") + "</em>" + t(".book"), Settings.urlBook %>.
+  <%= link_to Settings.urlBook do %>
+    <em><%= t(".rails") + " " %></em><%= t(".book") %>
+  <% end %>.
 </p>
