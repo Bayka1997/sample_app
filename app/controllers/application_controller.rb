@@ -1,7 +1,4 @@
 class ApplicationController < ActionController::Base
-  def hello
-    render html: "Xin chào nguyễn văn bảy"
-  end
 
   before_action :set_locale
     def set_locale
