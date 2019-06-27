@@ -1,5 +1,7 @@
 vi:
-  layouts: 
+  layouts:
+    application:
+      title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
     header:
       sample_app: "Ứng dụng demo"
       home: "Trang chủ"

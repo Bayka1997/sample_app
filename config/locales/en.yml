@@ -1,5 +1,7 @@
 en:
   layouts: 
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
     header:
       sample_app: "Sample App"
       home: "Home"
