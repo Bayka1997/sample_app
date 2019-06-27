@@ -14,3 +14,12 @@ vi:
       about: "Giới thiệu"
       contact: "Liên hệ"
       new: "Tin tức"
+  static_pages:
+    about:
+      about: "Giới thiệu"
+    contact:
+      contact: "Liên hệ"
+    help:
+      help: "Trợ giúp"
+    home:
+      home: "Chào mừng đến với Trang chủ"

@@ -14,3 +14,12 @@ en:
       about: "About"
       contact: "Contact"
       new: "New"
+  static_pages:
+    about:
+      about: "About"
+    contact:
+      contact: "Contact"
+    help:
+      help: "Help"
+    home:
+      home: "Welcome to the Home"

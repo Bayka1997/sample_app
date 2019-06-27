@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
 ruby "2.5.5"
 gem "bootstrap-sass", "3.3.7"
-gem 'rails-i18n'
+gem "rails-i18n"
 gem "rails", "~> 5.2.3"
 gem "mysql2", ">= 0.4.4", "< 0.6.0"
 gem "puma", "~> 3.11"
