@@ -5,3 +5,7 @@ urlScreencasts: "http://screencasts.railstutorial.org/"
 urlRubyRails: "http://rubyonrails.org/"
 urlContact: "https://www.railstutorial.org/contact"
 urlHelp: "https://www.railstutorial.org/help"
+VALID_EMAIL_REGEX: !ruby/regexp "/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i"
+maxName: 200
+maxEmail: 200
+minPassword: 3
