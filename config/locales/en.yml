@@ -51,4 +51,18 @@ en:
   users:
     new:
       sign_up: "Sign up"
-      des: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      create: "Create my account"
+    show:
+      not_exits: "User not exitst"
+  controllers:
+    user:
+      welcome: "Welcome to the Sample App!"
+      not_exits: "User not exits"
+  shared:
+    error_messages:
+      contant: " The form contains"
+      error: "error"
