@@ -51,4 +51,18 @@ vi:
   users:
     new:
       sign_up: "Đăng kí"
-      des: "Trang này là trang đăng kí người dùng mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận"
+      create: "Tạo tài khoản"
+    show:
+      not_exits: "Tài khoản không tồn tại"
+  controllers:
+    user:
+      welcome: "Chào mừng đến với Ứng dung mẫu!"
+      not_exits: "Tài khoản không tồn tại"
+  shared:
+    error_messages:
+      contant: "Nội dung biểu mẫu"
+      error: "lỗi"
