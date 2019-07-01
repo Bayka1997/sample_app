@@ -12,6 +12,11 @@ vi:
       lang_en: "Tiếng anh"
       lang_vi: "Tiếng việt"
       new: "Tin tức"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Thông tin cá nhân"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -58,10 +63,19 @@ vi:
       create: "Tạo tài khoản"
     show:
       not_exits: "Tài khoản không tồn tại"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      sign_up: "Đăng kí"
+      new: "Tạo mới tài khoản?"
+      email: "Email"
+      password: "Mật khẩu"
   controllers:
     user:
       welcome: "Chào mừng đến với Ứng dung mẫu!"
       not_exits: "Tài khoản không tồn tại"
+    session:
+      err: "Email/mật khẩu không hợp lệ"
   shared:
     error_messages:
       contant: "Nội dung biểu mẫu"
