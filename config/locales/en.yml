@@ -12,6 +12,11 @@ en:
       lang_en: "English"
       lang_vi: "Vietnamese"
       new: "New"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
     footer:
       about: "About"
       contact: "Contact"
@@ -58,10 +63,19 @@ en:
       create: "Create my account"
     show:
       not_exits: "User not exitst"
+  sessions:
+    new:
+      login: "Log in"
+      sign_up: "Sign up"
+      new: "New users?"
+      email: "Email"
+      password: "Password"
   controllers:
     user:
       welcome: "Welcome to the Sample App!"
       not_exits: "User not exits"
+    session:
+      err: "Invalid email/password combination"
   shared:
     error_messages:
       contant: " The form contains"

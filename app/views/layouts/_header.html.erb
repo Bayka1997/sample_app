@@ -6,9 +6,33 @@
         <li><%= link_to t(".home"), root_path %></li>
         <li><%= link_to t(".help"), help_path %></li>
         <li><%= link_to t(".about"), about_path %></li>
-        <li><%= link_to t(".login"), "#" %></li>
-        <li><%= link_to t(".lang_en"), locale:"en" %></li>
-        <li><%= link_to t(".lang_vi"), locale:"vi" %></li>
+        <% if logged_in? %>
+          <li><%= link_to t(".user"), "" %></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <%= t(".accout") %> <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to t(".profile"), current_user %></li>
+              <li><%= link_to t(".setting"), "#" %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t(".logout"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+          <li><%= link_to t(".login"), login_path %></li>
+        <% end %>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <%= t(".language") %><b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><%= link_to t(".lang_en"), locale:"en" %></li>
+            <li><%= link_to t(".lang_vi"), locale:"vi" %></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>
