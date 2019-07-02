@@ -70,6 +70,7 @@ vi:
       new: "Tạo mới tài khoản?"
       email: "Email"
       password: "Mật khẩu"
+      remember: "Nhớ mật tại máy này"
   controllers:
     user:
       welcome: "Chào mừng đến với Ứng dung mẫu!"
