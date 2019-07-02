@@ -70,6 +70,7 @@ en:
       new: "New users?"
       email: "Email"
       password: "Password"
+      remember: "Remember me on this computer"
   controllers:
     user:
       welcome: "Welcome to the Sample App!"
