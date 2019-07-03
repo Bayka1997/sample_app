@@ -1,0 +1,12 @@
+<% provide :title, t(".edit") %>
+<h1><%= t(".update") %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "form" %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t(".change"), Settings.urlGravateE, target: "_blank" %>
+    </div>
+  </div>
+</div>

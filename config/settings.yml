@@ -11,3 +11,7 @@ maxEmail: 200
 minPassword: 3
 urlGravata: "https://secure.gravatar.com/avatar/"
 sizeImageGravata: 50
+urlGravateE: http://gravatar.com/emails
+theme_config: "twitter-bootstrap-3"
+numInPage: 5
+size: 50

@@ -54,15 +54,26 @@ en:
       sample_app: "sample application."
       sign_up: "Sign up now!"
   users:
+    user:
+      delete: "Delete"
+      sure: "You sure?"
+    index:
+      all_user: "All users"
     new:
       sign_up: "Sign up"
+    show:
+      not_exits: "User not exitst"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      change: "change"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       password_confirmation: "Confirmation"
       create: "Create my account"
-    show:
-      not_exits: "User not exitst"
+      change_s: "Save changes"
   sessions:
     new:
       login: "Log in"
@@ -75,9 +86,21 @@ en:
     user:
       welcome: "Welcome to the Sample App!"
       not_exits: "User not exits"
+      profile: "Profile updated"
+      please_ln: "Please log in."
+      delete_s: "User deleted"
+      delete_er: "Delete error"
+      not_exits: "User not exits"
     session:
       err: "Invalid email/password combination"
   shared:
     error_messages:
       contant: " The form contains"
       error: "error"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"

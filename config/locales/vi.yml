@@ -54,15 +54,26 @@ vi:
       sample_app: "ứng dụng tưng tự."
       sign_up: "Đăng kí ngay!"
   users:
+    user:
+      delete: "Xóa"
+      sure: "Bạn đồng ý?"
+    index:
+      all_user: "Danh sách tài khoản"
     new:
       sign_up: "Đăng kí"
+    show:
+      not_exits: "Tài khoản không tồn tại"
+    edit:
+      edit: "Cập nhật người dùng"
+      update: "Cập nhật thông tin tài khoản"
+      change: "thay đổi"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận"
       create: "Tạo tài khoản"
-    show:
-      not_exits: "Tài khoản không tồn tại"
+      change_s: "Lưu thay đổi"      
   sessions:
     new:
       login: "Đăng nhập"
@@ -75,9 +86,21 @@ vi:
     user:
       welcome: "Chào mừng đến với Ứng dung mẫu!"
       not_exits: "Tài khoản không tồn tại"
+      profile: "Cập nhật thông tin cá nhân"
+      please_ln: "Hãy đăng nhập."
+      delete_s: "Xóa thành công tài khoản"
+      delete_er: "Xóa không thành công"
+      not_exits: "Taì khoản không tồn tại"
     session:
       err: "Email/mật khẩu không hợp lệ"
   shared:
     error_messages:
       contant: "Nội dung biểu mẫu"
       error: "lỗi"
+  views:
+    pagination:
+      first: "« Đầu trang"
+      last: "Cuối trang »"
+      previous: "‹ Trước"
+      next: "Sau ›"
+      truncate: "…"

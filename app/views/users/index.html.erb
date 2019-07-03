@@ -1,0 +1,9 @@
+<% provide :title, t(".all_user") %>
+<h1><%= t(".all_user") %></h1>
+
+<ul class="users">
+   <% @users.each do |user| %>
+      <%= render user %>
+   <% end %>
+</ul>
+<%= paginate @users, theme: Settings.theme_config %>
