@@ -15,3 +15,4 @@ urlGravateE: http://gravatar.com/emails
 theme_config: "twitter-bootstrap-3"
 numInPage: 5
 size: 50
+time_expired: 2

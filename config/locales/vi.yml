@@ -1,10 +1,5 @@
 vi:
   layouts:
-    user_mailer:
-      name_app: "Ứng dụng mẫu"
-      hi: "Xin chào"
-      des: "Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để xác thực tài khoản:"
-      advance: "Xác thực"
     application:
       title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
     header:
@@ -87,6 +82,29 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       remember: "Nhớ mật tại máy này"
+      forgot: "(quên mật khẩu)"
+  password_resets:
+    new:
+      forgot: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    edit:
+      edit: "Đăt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      confirmation: "Xác nhận"
+      update: "Cập nhật mật khẩu"
+  user_mailer:
+    account_activation:
+      name_app: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      des: "Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để xác thực tài khoản:"
+      advance: "Xác thực"
+    password_reset:
+      reset: "Đặt lại mật khẩu"
+      to_reset: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+      time_expire: "Liên kết này sẽ hết hạn trong hai giờ."
+      des: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
   controllers:
     user:
       welcome: "Chào mừng đến với Ứng dung mẫu!"
@@ -101,8 +119,15 @@ vi:
       err: "Email/mật khẩu không hợp lệ"
       message: "Tài khoản chưa xác thực. Kiểm tra email để xem địa chỉ xác thực."
     account_activation:
-      activated: "Tài khoản được kích hoạt!"
-      invalid: "Liên kết kích hoạt không hợp lệ"
+        activated: "Tài khoản được kích hoạt!"
+        invalid: "Liên kết kích hoạt không hợp lệ"
+    password_reset:
+      info: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      error: "địa chỉ email không đúng"
+      er_pass_empty: "Không thể trống"
+      success: "Mật khẩu đã được đặt lại."
+      expited: "Đặt lại mật khẩu hết hạn."
+      not_exits: "Tài khoản không tồn tại"
   shared:
     error_messages:
       contant: "Nội dung biểu mẫu"
@@ -118,3 +143,4 @@ vi:
     user_mailer:
       hi: "xin chào"
       subject: "Xác thực tài khoản"
+      subject_update: "Cập nhật mật khẩu"
