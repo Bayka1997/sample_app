@@ -1,5 +1,10 @@
 en:
-  layouts: 
+  layouts:
+    user_mailer:
+      name_app: "Sample App"
+      hi: "Hi"
+      des: "Welcome to the Sample App! Click on the link below to activate your account:"
+      advance: "Activate"
     application:
       title: "Ruby on Rails Tutorial Sample App"
     header:
@@ -91,8 +96,13 @@ en:
       delete_s: "User deleted"
       delete_er: "Delete error"
       not_exits: "User not exits"
+      info: "Please check your email to activate your account."
     session:
       err: "Invalid email/password combination"
+      message: "Account not activated. Check your email for the activation link."
+    account_activation:
+      activated: "Account activated!"
+      invalid: "Invalid activation link"
   shared:
     error_messages:
       contant: " The form contains"
@@ -104,3 +114,7 @@ en:
       previous: "‹ PREV"
       next: "NEXT ›"
       truncate: "…"
+  mailers:
+    user_mailer:
+      hi: "hi"
+      subject: "Account activation"

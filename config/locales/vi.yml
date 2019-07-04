@@ -1,5 +1,10 @@
 vi:
   layouts:
+    user_mailer:
+      name_app: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      des: "Chào mừng đến với ứng dụng mẫu! Nhấn vào link bên dưới để xác thực tài khoản:"
+      advance: "Xác thực"
     application:
       title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
     header:
@@ -91,8 +96,13 @@ vi:
       delete_s: "Xóa thành công tài khoản"
       delete_er: "Xóa không thành công"
       not_exits: "Taì khoản không tồn tại"
+      info: "Vui lòng check email để xác thực tài khoản của bạn"
     session:
       err: "Email/mật khẩu không hợp lệ"
+      message: "Tài khoản chưa xác thực. Kiểm tra email để xem địa chỉ xác thực."
+    account_activation:
+      activated: "Tài khoản được kích hoạt!"
+      invalid: "Liên kết kích hoạt không hợp lệ"
   shared:
     error_messages:
       contant: "Nội dung biểu mẫu"
@@ -104,3 +114,7 @@ vi:
       previous: "‹ Trước"
       next: "Sau ›"
       truncate: "…"
+  mailers:
+    user_mailer:
+      hi: "xin chào"
+      subject: "Xác thực tài khoản"
