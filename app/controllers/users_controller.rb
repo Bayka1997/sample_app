@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.order(:name).page params[:page]
+    @users = User.page(params[:page]).per Settings.numInPage
   end
 
   def new
@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash.now[:success] = t("controllers.user.welcome")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t("controllers.user.info")
+      redirect_to root_url
     else
       render :new
     end
