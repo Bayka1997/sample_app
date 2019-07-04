@@ -1,10 +1,5 @@
 en:
   layouts:
-    user_mailer:
-      name_app: "Sample App"
-      hi: "Hi"
-      des: "Welcome to the Sample App! Click on the link below to activate your account:"
-      advance: "Activate"
     application:
       title: "Ruby on Rails Tutorial Sample App"
     header:
@@ -87,6 +82,29 @@ en:
       email: "Email"
       password: "Password"
       remember: "Remember me on this computer"
+      forgot: "(forgot password)"
+  password_resets:
+    new:
+      forgot: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+    edit:
+      edit: "Reset password"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      confirmation: "Confirmation"
+      update: "Update password"
+  user_mailer:
+    account_activation:
+      name_app: "Sample App"
+      hi: "Hi"
+      des: "Welcome to the Sample App! Click on the link below to activate your account:"
+      advance: "Activate"
+    password_reset:
+      reset: "Password reset"
+      to_reset: "To reset your password click the link below:"
+      time_expire: "This link will expire in two hours."
+      des: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   controllers:
     user:
       welcome: "Welcome to the Sample App!"
@@ -103,6 +121,13 @@ en:
     account_activation:
       activated: "Account activated!"
       invalid: "Invalid activation link"
+    password_reset:
+      info: "Email sent with password reset instructions"
+      error: "Email address not found"
+      er_pass_empty: "can't be empty"
+      success: "Password has been reset."
+      expited: "Password reset has expired."
+      not_exits: "User not exits"
   shared:
     error_messages:
       contant: " The form contains"
@@ -118,3 +143,4 @@ en:
     user_mailer:
       hi: "hi"
       subject: "Account activation"
+      subject_update: "Cập nhật mật khẩu"
