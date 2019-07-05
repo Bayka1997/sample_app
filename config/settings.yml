@@ -16,3 +16,7 @@ theme_config: "twitter-bootstrap-3"
 numInPage: 5
 size: 50
 time_expired: 2
+maxContentMicroPost: 140
+micropostSize: 50
+numMicroPost: 3
+pictute_size: 5

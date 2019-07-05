@@ -1,4 +1,10 @@
 en:
+  microposts:
+    micropost:
+      post: "Posted"
+      ago: "ago"
+      sure: "You sure?"
+      delete: "delete"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -63,6 +69,7 @@ en:
       sign_up: "Sign up"
     show:
       not_exits: "User not exitst"
+      microposts: "Microposts"
     edit:
       edit: "Edit user"
       update: "Update your profile"
@@ -106,6 +113,12 @@ en:
       time_expire: "This link will expire in two hours."
       des: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   controllers:
+    application:
+      please_login: "Please log in."
+    micropost:
+      created: "Micropost created!"
+      deleted: "Micropost deleted!"
+      er_delete: "Delete fail"
     user:
       welcome: "Welcome to the Sample App!"
       not_exits: "User not exits"
@@ -132,6 +145,12 @@ en:
     error_messages:
       contant: " The form contains"
       error: "error"
+    micropost_form:
+      post: "Post"
+      pladehold: "Compose new micropost..."
+    user_info:
+      profile: "view my profile"
+      micropost: "micropost"
   views:
     pagination:
       first: "« FIRST"
@@ -144,3 +163,6 @@ en:
       hi: "hi"
       subject: "Account activation"
       subject_update: "Cập nhật mật khẩu"
+  model:
+    micropost:
+      picture_size: "should be less than 5MB"
