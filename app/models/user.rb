@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
+  has_many :microposts, dependent: :destroy
 
   before_save {email.downcase!}
   before_create :create_activation_digest
@@ -59,9 +60,13 @@ class User < ApplicationRecord
     reset_sent_at < Settings.time_expired.hours.ago
   end
 
+  def feed
+    Micropost.where "user_id = ?", id
+  end
+
   private
     def create_activation_digest
       self.activation_token  = User.new_token
-      self.activation_digest = User.digest(activation_token)
+      self.activation_digest = User.digest activation_token
     end
 end

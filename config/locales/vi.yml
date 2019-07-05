@@ -1,4 +1,10 @@
 vi:
+  microposts:
+    micropost:
+      post: "Đẵ đăng"
+      ago: "trước"
+      sure: "Bạn đồng ý?"
+      delete: "xóa"
   layouts:
     application:
       title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
@@ -63,6 +69,7 @@ vi:
       sign_up: "Đăng kí"
     show:
       not_exits: "Tài khoản không tồn tại"
+      microposts: "Bài viết nhỏ"
     edit:
       edit: "Cập nhật người dùng"
       update: "Cập nhật thông tin tài khoản"
@@ -106,6 +113,12 @@ vi:
       time_expire: "Liên kết này sẽ hết hạn trong hai giờ."
       des: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
   controllers:
+    application:
+      please_login: "Vui lòng đăng nhập."
+    micropost:
+      created: "Bài việt ngắn đã được tạo!"
+      deleted: "Bài viết nhỏ đã xóa!"
+      er_delete: "Xóa không thành công"
     user:
       welcome: "Chào mừng đến với Ứng dung mẫu!"
       not_exits: "Tài khoản không tồn tại"
@@ -131,7 +144,13 @@ vi:
   shared:
     error_messages:
       contant: "Nội dung biểu mẫu"
-      error: "lỗi"
+      error: "lỗi"  
+    micropost_form:
+      post: "Đăng bài"
+      pladehold: "Tạo bài đăng nhỏ mới..."
+    user_info:
+      profile: "xem thông tin cá nhân"
+      micropost: "bài viết nhỏ"
   views:
     pagination:
       first: "« Đầu trang"
@@ -144,3 +163,6 @@ vi:
       hi: "xin chào"
       subject: "Xác thực tài khoản"
       subject_update: "Cập nhật mật khẩu"
+  model:
+    micropost:
+      picture_size: "should be less than 5MB"
