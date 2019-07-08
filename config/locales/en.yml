@@ -60,6 +60,13 @@ en:
       sample_app: "sample application."
       sign_up: "Sign up now!"
   users:
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view: "view my profile"
+      microposts: "Microposts"
     user:
       delete: "Delete"
       sure: "You sure?"
@@ -120,6 +127,8 @@ en:
       deleted: "Micropost deleted!"
       er_delete: "Delete fail"
     user:
+      following: "Following"
+      followers: "Followers"
       welcome: "Welcome to the Sample App!"
       not_exits: "User not exits"
       profile: "Profile updated"
@@ -151,6 +160,9 @@ en:
     user_info:
       profile: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   views:
     pagination:
       first: "« FIRST"

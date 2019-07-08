@@ -20,3 +20,6 @@ maxContentMicroPost: 140
 micropostSize: 50
 numMicroPost: 3
 pictute_size: 5
+numFollowing: 10
+numFollowers: 10
+sizeGravana: 30

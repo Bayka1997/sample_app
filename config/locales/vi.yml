@@ -60,6 +60,13 @@ vi:
       sample_app: "ứng dụng tưng tự."
       sign_up: "Đăng kí ngay!"
   users:
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view: "xem thông tin cá nhân"
+      microposts: "Bài viết ngắn"
     user:
       delete: "Xóa"
       sure: "Bạn đồng ý?"
@@ -120,6 +127,8 @@ vi:
       deleted: "Bài viết nhỏ đã xóa!"
       er_delete: "Xóa không thành công"
     user:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
       welcome: "Chào mừng đến với Ứng dung mẫu!"
       not_exits: "Tài khoản không tồn tại"
       profile: "Cập nhật thông tin cá nhân"
@@ -151,6 +160,9 @@ vi:
     user_info:
       profile: "xem thông tin cá nhân"
       micropost: "bài viết nhỏ"
+    stats:
+      following: "đang theo dõi"
+      followers: "theo dõi"
   views:
     pagination:
       first: "« Đầu trang"
